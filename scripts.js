@@ -7,16 +7,19 @@ function cambiarColorTexto(){
             console.log("color blue");
             pagina.style.color="blue";
             pagina.style.backgroundColor="yellow";
+            selectOpcionesColor.style.color="blue";
             break;
         case 2:
             console.log("color yellow");
             pagina.style.color="yellow";
             pagina.style.backgroundColor="blue";
+            selectOpcionesColor.style.color="yellow";
             break;
         case 3:
             console.log("color green");
             pagina.style.color="green";
             pagina.style.backgroundColor="black";
+            selectOpcionesColor.style.color="green";
             break;
         default:
             console.log("default");
