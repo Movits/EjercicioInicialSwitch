@@ -16,7 +16,7 @@ function cambiarColorTexto(){
         case 3:
             console.log("color green");
             pagina.style.color="green";
-            pagina.style.backgroundColor="yellow";
+            pagina.style.backgroundColor="black";
             break;
         default:
             console.log("default");
